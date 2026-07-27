@@ -1,0 +1,22 @@
+{
+  "controls": [
+    {
+      "type": "slider",
+      "key": "intensity",
+      "label": "Intensity",
+      "min": 0.0,
+      "max": 1.0,
+      "step": 0.01,
+      "default": 0.55
+    },
+    {
+      "type": "slider",
+      "key": "speed",
+      "label": "Breathe speed",
+      "min": 0.02,
+      "max": 1.0,
+      "step": 0.0098,
+      "default": 0.2
+    }
+  ]
+}

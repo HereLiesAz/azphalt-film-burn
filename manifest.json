@@ -1,0 +1,33 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.film-burn",
+  "name": "Film Burn",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "Warm light bleeding in from the frame edges, breathing slowly \u2014 the burnt-film transition look, running continuously.",
+  "author": "HereLiesAz",
+  "targetApps": [
+    "com.hereliesaz.guillotine"
+  ],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/film-burn.fs",
+      "ui": "ui/panel.json",
+      "params": {
+        "format": "isf"
+      },
+      "tags": [
+        "shader",
+        "stylize",
+        "film-burn",
+        "light-leak",
+        "analog",
+        "transition",
+        "one-click"
+      ]
+    }
+  ]
+}
